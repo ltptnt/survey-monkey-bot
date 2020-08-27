@@ -21,7 +21,7 @@ while True:
     
     vote_submit = driver.find_element_by_xpath("//button[contains(text(), ' Done')]")
     vote_submit.click()
-    time.sleep(3)
+    time.sleep(4)
     driver.close()
 
 #replace 4 with the number of times you would like the program to run
